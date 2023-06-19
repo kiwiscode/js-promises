@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  font-size: 50px;
+  text-align: center;
+  color: crimson;
+}
+
+.box {
+  border: 1px solid #000;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: crimson;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.box.bigger {
+  width: 300px;
+  height: 300px;
+}
+
+.box.circle {
+  border-radius: 50%;
+}
+
+.box.move {
+  transform: translateX(300px);
+}
+
+.box.colored {
+  background-color: rebeccapurple;
+}
